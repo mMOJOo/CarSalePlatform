@@ -1,0 +1,128 @@
+@model IEnumerable<CarSalePlatform.Models.Car>
+
+    <!-- This page contains the HTML and CSS parts of the related files.-->
+
+<div class="page-background">
+    <div class="container">
+        <h1 class="page-header">Car Listings</h1>
+        <a asp-action="Create" class="btn btn-gradient mb-3">Add New Car</a>
+
+        <table class="table table-light table-hover shadow">
+            <thead class="table-warning">
+                <tr>
+                    <th>Photo</th>
+                    <th>Brand</th>
+                    <th>Model</th>
+                    <th>Year</th>
+                    <th>Price</th>
+                    <th>Fuel Type</th>
+                    <th>Description</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var car in Model)
+            {
+                <tr>
+                    <td>
+                        @if (!string.IsNullOrEmpty(car.PhotoPath))
+                        {
+                            <img src="@car.PhotoPath" alt="Car Photo" class="img-thumbnail" style="width: 100px; height: auto; object-fit: cover;" />
+                        }
+                        else
+                        {
+                            <img src="https://via.placeholder.com/100" alt="Default Photo" class="img-thumbnail" />
+                        }
+                    </td>
+                    <td>@car.Brand</td>
+                    <td>@car.Model</td>
+                    <td>@car.Year</td>
+                    <td>@car.Price</td>
+                    <td>@car.FuelType</td> 
+                    <td>@car.Description</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@car.Id" class="btn btn-info btn-sm">Details</a>
+                        <a asp-action="Edit" asp-route-id="@car.Id" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@car.Id" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+        <p class="page-subheader">Last updated on @ViewBag.LastUpdated </p>
+        <footer class="text-center text-light py-3 mt-5">
+        &copy; 2024 | SAUTECH | ©
+    </footer>
+    </div>
+</div>
+
+<style>
+    .page-background {
+        position: fixed;
+        top: 56px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, #f3eae8, #7c7973, #f3eae8);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        overflow-y: auto;
+    }
+
+    .page-header {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #690a11;
+        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .page-subheader {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #141307;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .btn-gradient {
+        font-size: 1.3rem;
+        font-weight: 600;
+        border: none;
+        color: #fff;
+        border-radius: 50px;
+        background: linear-gradient(135deg, #ff6600, #690a11);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        padding: 10px 30px;
+    }
+
+    .btn-gradient:hover {
+        background: linear-gradient(135deg, #ff9900, #ff6600);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+        transform: translateY(-3px);
+    }
+
+    table.table {
+        background: #f8efed;
+        border-radius: 20px;
+        margin-top: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    table.table th,
+    table.table td {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    thead.table-warning {
+        background: #fff8dc;
+        color: #141307;
+    }
+
+    img.img-thumbnail {
+        border: 2px solid #ffd700;
+    }
+</style>

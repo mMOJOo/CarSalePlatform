@@ -1,0 +1,102 @@
+@model CarSalePlatform.Models.Car
+
+<!-- This page contains the HTML and CSS parts of the related files.-->
+
+<div class="page-background">
+    <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="form-container shadow">
+            <h2 class="page-header text-center">Car Details</h2>
+            <div class="text-center mb-3">
+                @if (!string.IsNullOrEmpty(Model.PhotoPath))
+                {
+                    <img src="@Model.PhotoPath" alt="Car Photo" class="car-image img-thumbnail" style="max-width: 300px; height: auto; object-fit: cover;" />
+                }
+                else
+                {
+                    <p>No photo available</p>
+                }
+            </div>
+
+            <dl class="row">
+                <dt class="col-sm-4">Brand:</dt>
+                <dd class="col-sm-8">@Model.Brand</dd>
+
+                <dt class="col-sm-4">Model:</dt>
+                <dd class="col-sm-8">@Model.Model</dd>
+
+                <dt class="col-sm-4">Year:</dt>
+                <dd class="col-sm-8">@Model.Year</dd>
+
+                <dt class="col-sm-4">Price:</dt>
+                <dd class="col-sm-8">@Model.Price</dd>
+
+                <dt class="col-sm-4">Fuel Type:</dt>
+                <dd class="col-sm-8">@Model.FuelType</dd>
+
+                <dt class="col-sm-4">Description:</dt>
+                <dd class="col-sm-8">@Model.Description</dd>
+            </dl>
+
+            <div class="text-center">
+                <a asp-action="Index" class="btn btn-gradient px-5">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .page-background {
+        position: fixed;
+        top: 56px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, #f3eae8, #7c7973, #f3eae8);
+        padding: 20px;
+        overflow-y: auto;
+    }
+
+    .page-header {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #690a11;
+        margin-bottom: 10px;
+    }
+
+    .form-container {
+        background: #f8efed;
+        border-radius: 15px;
+        padding: 30px;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .car-image {
+        border-radius: 10px;
+        border: 2px solid #ffd700;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+    }
+
+    .car-image:hover {
+        transform: scale(1.13); 
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4); 
+    }
+
+    .btn-gradient {
+        font-size: 1.2rem;
+        font-weight: 600;
+        border: none;
+        color: #fff;
+        border-radius: 50px;
+        background: linear-gradient(135deg, #ff6600, #690a11);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        padding: 10px 30px;
+    }
+
+    .btn-gradient:hover {
+        background: linear-gradient(135deg, #ff9900, #ff6600);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+        transform: translateY(-3px);
+    }
+</style>

@@ -1,0 +1,95 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="page-background d-flex justify-content-center align-items-center">
+    <div class="form-container shadow">
+        <h2 class="page-header">Welcome Back!</h2>
+        <p class="page-description">Please log in to continue.</p>
+
+        <form asp-action="Login" method="post" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" name="email" class="form-control" placeholder="Enter your email" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" name="password" class="form-control" placeholder="Enter your password" required />
+            </div>
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger">@ViewBag.Error</div>
+            }
+            <div class="text-center">
+                <button type="submit" class="btn btn-gradient px-5">Login</button>
+            </div>
+        </form>
+
+        <div class="text-center mt-3">
+            <p>Don't have an account? <a asp-action="Register" class="text-decoration-none">Sign Up here!</a></p>
+        </div>
+    </div>
+</div>
+
+<!-- CSS -->
+<style>
+    .page-background {
+        position: fixed;
+        top: 56px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, #f3eae8, #7c7973, #f3eae8);
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        padding: 20px;
+    }
+
+    .page-header {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #690a11;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .page-description {
+        font-size: 1.2rem;
+        color: #141307;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    .form-container {
+        background: #1a7278; 
+        border-radius: 15px;
+        padding: 30px;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .form-control {
+        border-radius: 10px; 
+        border: 1px solid #ddd;
+    }
+
+    .btn-gradient {
+        font-size: 1.2rem;
+        font-weight: 600;
+        border: none;
+        color: #fff;
+        border-radius: 50px;
+        background: linear-gradient(135deg, #ff6600, #690a11);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        padding: 10px 30px;
+    }
+
+    .btn-gradient:hover {
+        background: linear-gradient(135deg, #ff9900, #ff6600);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+        transform: translateY(-3px);
+    }
+</style>

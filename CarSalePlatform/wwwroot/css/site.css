@@ -1,0 +1,92 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+/* Genel Gradient Arka Plan */
+.page-background {
+  min-height: calc(100vh - 56px); /* Header hariç tam ekran */
+  background: linear-gradient(135deg, #ffcc00, #ff6600, #ff3300); /* Sarı, turuncu, kırmızı gradient */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* Başlık ve Metin */
+.page-header {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #ffd700; /* Altın sarısı */
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3); /* Hafif gölge */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.page-description {
+  font-size: 1.5rem;
+  color: #f8f9fa;
+  opacity: 0.9;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Gradient Buton */
+.btn-gradient {
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #ff9900, #ff6600); /* Turuncu geçiş */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Gölge efekti */
+  transition: all 0.3s ease; /* Hover efekti */
+  padding: 10px 30px;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(135deg, #ffcc00, #ff6600); /* Sarıdan turuncuya geçiş */
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3); /* Gölge büyütme */
+  transform: translateY(-3px); /* Hafif yukarı hareket */
+}
+
+/* Footer */
+footer {
+  flex-shrink: 0;
+  font-size: 1rem;
+  background: none;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}

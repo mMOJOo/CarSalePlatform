@@ -1,0 +1,128 @@
+@model CarSalePlatform.Models.Car
+
+<!-- This page contains the HTML and CSS parts of the related files.-->
+
+<div class="page-background">
+    <div class="container mt-5">
+        <h2 class="page-header">Add a New Car</h2>
+        <p class="page-description">Fill out the form below to add your car to the listing.</p>
+
+        <div class="form-container shadow">
+            <form asp-action="Create" class="needs-validation" novalidate enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label class="form-label">Brand</label>
+                    <input asp-for="Brand" class="form-control" placeholder="Enter car brand" required />
+                    <span asp-validation-for="Brand" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Model</label>
+                    <input asp-for="Model" class="form-control" placeholder="Enter car model" required />
+                    <span asp-validation-for="Model" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Year</label>
+                    <input asp-for="Year" type="number" class="form-control" placeholder="Enter manufacturing year" required />
+                    <span asp-validation-for="Year" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Price</label>
+                    <input asp-for="Price" type="number" step="0.01" class="form-control" placeholder="Enter price" required />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Fuel Type</label>
+                    <select asp-for="FuelType" class="form-select">
+                    <option value="Gasoline">Gasoline</option>
+                    <option value="Diesel">Diesel</option>
+                    <option value="Electric">Electric</option>
+                    </select>
+                    <span asp-validation-for="FuelType" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Description</label>
+                    <textarea asp-for="Description" class="form-control" rows="3" placeholder="Enter description" required></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Upload Photo</label>
+                    <input asp-for="PhotoFile" type="file" class="form-control" />
+                    <span asp-validation-for="PhotoFile" class="text-danger"></span>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-gradient px-5">Add Car</button>
+                    <a asp-action="Index" class="btn btn-gradient px-5">Cancel</a>
+                </div>
+            </form>
+        </div>
+        <footer class="text-center text-light py-3 mt-5">
+        &copy; 2024 | SAUTECH | ©
+    </footer>
+    </div>
+</div>
+
+<style>
+    
+    .page-background {
+        position: fixed;
+        top: 56px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, #f3eae8, #7c7973, #f3eae8); 
+        padding-top: 20px;
+        padding-bottom: 20px;
+        overflow-y: auto; 
+    }
+
+    
+    .page-header {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #690a11; 
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    
+    .page-description {
+        font-size: 1.2rem;
+        color: #141307; 
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    
+    .form-container {
+        background: #f8efed; 
+        border-radius: 15px; 
+        padding: 30px;
+        max-width: 600px; 
+        margin: 0 auto; 
+    }
+
+    
+    .btn-gradient {
+        font-size: 1.2rem;
+        font-weight: 600;
+        border: none;
+        color: #fff;
+        border-radius: 50px;
+        background: linear-gradient(135deg, #ff6600,#690a11); 
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+        transition: all 0.3s ease; 
+        padding: 10px 30px;
+    }
+
+    .btn-gradient:hover {
+        background: linear-gradient(135deg, #ff6600,#690a11); 
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3); 
+        transform: translateY(-3px);
+    }
+
+    
+    .form-control {
+        border-radius: 10px; 
+        border: 1px solid #ddd; 
+    }
+</style>

@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\CarSalePlatform.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CarSalePlatform.epj5vracy9.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\03e80e10-467c-4d0b-b01c-09a742424d1b_DVV_UOFVQAAY-Cv.jpg",
+      "PackagePath": "staticwebassets\\images\\03e80e10-467c-4d0b-b01c-09a742424d1b_DVV_UOFVQAAY-Cv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\13b58811-d423-4e67-a922-6c026b12e720_testing.jpg",
+      "PackagePath": "staticwebassets\\images\\13b58811-d423-4e67-a922-6c026b12e720_testing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\2c8ec325-d38a-45e7-9ff0-4e4ba6abc654_opel.jpg",
+      "PackagePath": "staticwebassets\\images\\2c8ec325-d38a-45e7-9ff0-4e4ba6abc654_opel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\4b4bb61b-2d91-4a9a-9eb9-19dae368c79b_dünyasıbaşınayıkılanmaymun.jpg",
+      "PackagePath": "staticwebassets\\images\\4b4bb61b-2d91-4a9a-9eb9-19dae368c79b_dünyasıbaşınayıkılanmaymun.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\777c7202-c9b2-4235-b473-4e219772007a_20220805_022918.jpg",
+      "PackagePath": "staticwebassets\\images\\777c7202-c9b2-4235-b473-4e219772007a_20220805_022918.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\8525664b-f349-41b3-a77d-296a0470b495_fiat.jpg",
+      "PackagePath": "staticwebassets\\images\\8525664b-f349-41b3-a77d-296a0470b495_fiat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\87bbb0d8-a7be-4724-80de-cad0575b8ef4_chillguyforAIbot.webp",
+      "PackagePath": "staticwebassets\\images\\87bbb0d8-a7be-4724-80de-cad0575b8ef4_chillguyforAIbot.webp"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\a5f94bd6-afb2-48af-9533-9ed2444f5ae7_20220809_215413.jpg",
+      "PackagePath": "staticwebassets\\images\\a5f94bd6-afb2-48af-9533-9ed2444f5ae7_20220809_215413.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\a7f9bb88-8148-49b2-b969-047b94976983_20220805_022918.jpg",
+      "PackagePath": "staticwebassets\\images\\a7f9bb88-8148-49b2-b969-047b94976983_20220805_022918.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\b86ef586-a280-4892-ad75-0eef68701b40_chillguyforAIbot.webp",
+      "PackagePath": "staticwebassets\\images\\b86ef586-a280-4892-ad75-0eef68701b40_chillguyforAIbot.webp"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\cac3f0c4-09e2-4edd-bc53-012f04248034_audii.jpg",
+      "PackagePath": "staticwebassets\\images\\cac3f0c4-09e2-4edd-bc53-012f04248034_audii.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\d3c26dfa-a411-4149-a905-ae1b777f408a_20220809_215413.jpg",
+      "PackagePath": "staticwebassets\\images\\d3c26dfa-a411-4149-a905-ae1b777f408a_20220809_215413.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\f4a3c458-a57b-4736-9986-5bbac65053b7_tesla.jpg",
+      "PackagePath": "staticwebassets\\images\\f4a3c458-a57b-4736-9986-5bbac65053b7_tesla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\fde5909d-93a9-41b4-a62e-e74148676fde_20220805_121506.jpg",
+      "PackagePath": "staticwebassets\\images\\fde5909d-93a9-41b4-a62e-e74148676fde_20220805_121506.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\icons8-add-50 (1).png",
+      "PackagePath": "staticwebassets\\images\\icons8-add-50 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\icons8-car-50.png",
+      "PackagePath": "staticwebassets\\images\\icons8-car-50.png"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\icons8-home-50.png",
+      "PackagePath": "staticwebassets\\images\\icons8-home-50.png"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\icons8-login-50.png",
+      "PackagePath": "staticwebassets\\images\\icons8-login-50.png"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\images\\icons8-logout-50 (2).png",
+      "PackagePath": "staticwebassets\\images\\icons8-logout-50 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Monster\\CarSalePlatform\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CarSalePlatform.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CarSalePlatform.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.CarSalePlatform.props",
+      "PackagePath": "build\\CarSalePlatform.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.CarSalePlatform.props",
+      "PackagePath": "buildMultiTargeting\\CarSalePlatform.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.CarSalePlatform.props",
+      "PackagePath": "buildTransitive\\CarSalePlatform.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

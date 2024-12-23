@@ -1,0 +1,90 @@
+@{
+    ViewData["Title"] = "CarSalePlatform";
+}
+
+<!-- This page contains the HTML and CSS parts of the related files.-->
+
+<div class="welcome-container">
+    <div class="content">
+        <h1 class="fw-bold mb-4 display-2 text-shadow">
+            <span class="text-white">Welcome to</span> 
+            <span class="text-highlight">Car Sale Platform</span>
+        </h1>
+        <p class="lead text-light mb-5">
+            Find your dream car or sell your vehicle with ease!
+        </p>
+        <a asp-controller="Car" asp-action="Index" class="btn btn-lg btn-gradient px-5 py-3 shadow">
+            Explore Car Listings
+        </a>
+    </div>
+    
+    <footer class="text-center text-light py-3 mt-5">
+        &copy; 2024 | SAUTECH | ©
+    </footer>
+</div>
+
+<style>
+    .welcome-container {
+        position: absolute;
+        top: 56px; 
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(135deg, #f3eae8, #7c7973, #f3eae8); 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .content {
+        text-align: center;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h1.display-2 {
+        font-size: 3.5rem;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    .text-highlight {
+        color: #690a11; 
+        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3); 
+    }
+
+    p.lead {
+        font-size: 1.5rem;
+        color: #f8f9fa;
+        opacity: 0.9;
+    }
+
+    .btn-gradient {
+        font-size: 1.3rem;
+        font-weight: 600;
+        border: none;
+        color: #fff;
+        border-radius: 50px;
+        background: linear-gradient(135deg, #ff6600,#690a11); 
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+        transition: all 0.3s ease; 
+    }
+
+    .btn-gradient:hover {
+        background: linear-gradient(135deg, #ff6600,#690a11); 
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3); 
+        transform: translateY(-3px); 
+    }
+
+    footer {
+        flex-shrink: 0;
+        font-size: 1rem;
+        background: none;
+    }
+</style>

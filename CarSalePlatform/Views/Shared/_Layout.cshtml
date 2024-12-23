@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>@ViewData["Title"] - Sahimibirinden</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+
+        .nav-link {
+            color: #fff;
+            position: relative;
+        }
+
+        .nav-link.active::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 3px;
+            background-color: #690a11;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+
+        .nav-icon {
+            width: 18px;
+            height: 18px;
+            margin-right: 5px;
+            vertical-align: middle; 
+        }
+
+        .nav-link:hover::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 3px;
+            background-color: #690a11;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+    </style>
+</head>
+<body class="@ViewData["BodyClass"]">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                <img src="~/images/icons8-home-50.png" alt="Home" class="nav-icon" />
+                Sahimibirinden
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Car" && ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")"
+                           asp-controller="Car" asp-action="Index">
+                            <img src="~/images/icons8-car-50.png" alt="Car Listings" class="nav-icon" />
+                            Car Listings
+                        </a>
+                    </li>
+
+                    
+                    <li class="nav-item">
+                        <a class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Car" && ViewContext.RouteData.Values["action"]?.ToString() == "Create" ? "active" : "")"
+                           asp-controller="Car" asp-action="Create">
+                            <img src="~/images/icons8-add-50 (1).png" alt="Add New Car" class="nav-icon" />
+                            Add New Car
+                        </a>
+                    </li>
+                </ul>
+
+                
+                <ul class="navbar-nav ms-auto">
+                    @if (!string.IsNullOrEmpty(Context.Session.GetString("UserEmail")))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Logout">
+                                <img src="~/images/icons8-logout-50 (2).png" alt="Logout" class="nav-icon" />
+                                Logout
+                            </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Login">
+                                <img src="~/images/icons8-login-50.png" alt="Login" class="nav-icon" />
+                                Login
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+
+    
+    <footer class="text-center text-muted mt-4">
+        &copy; 2024 - Sahimibirinden
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
